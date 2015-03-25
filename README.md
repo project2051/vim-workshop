@@ -241,4 +241,80 @@ Przywrócmy stan pierwotny `:e!`
 
 <kbd>.</kbd> - powtórzy poprzednią akcję czyli `p`
 
+Jeśli wcześniej nie było takiego kontaktu z vimem to faktycznie może to
+być dużo do przyjęcia na raz, ale warto zawsze wrócić do podstaw i
+przypomnieć sobie jak być bardziej produktywnym i korzystać z całego
+słownika językowego vima.
+
+Na końcu tego READme są linki do innych tutoriali/ćwiczeń, gorąco
+polecam. Janusz TouK
+
+## Vim jako IDE
+
+Na początek sklonujmy sobie repo z githuba
+
+```
+git clone https://github.com/TouK/sputnik /tmp/sputnik
+cd /tmp/sputnik
+vim -p *
+```
+
+### Taby
+Vim otworzył nam siedem zakładeczek, jeśli nie macie żadnych bindingów
+to
+
+<kbd>ctrl</kbd><kbd>alt</kbd><kbd>pgup</kbd>
+
+<kbd>ctrl</kbd><kbd>alt</kbd><kbd>pgdown</kbd>
+
+pozwoli nam poruszać się miedzy zakładkami. Ja korzystam z tego tak, że
+w każdej mam inny projekt, a pliki które edytujemy w każdej z nich
+znajdują się w buforze. Choć raczej korzystam z fuzzy search'a ;)
+
+### Bufory
+<kbd>:ls</kbd>
+
+Pokazuje pliki które są w pamięci, można się przełączać między nimi
+korzystając z np:
+
+<kbd>:b4</kbd>
+
+gdzie 4 to unikalny identyfikator bufora.
+
+### Fuzzy search
+Mój ulubiony skrót to
+
+<kbd>ctrl</kbd><kbd>p</kbd>
+
+po jego wciśnięciu uzyskujemy dodatkowe okno w którym możemy
+szukać plików w danym katalogu. Np:
+
+<kbd>srjpeviscrps</kbd>
+
+znajdzie nam kilka plików schowanych głęboko w strukturze katalogów.
+Oczywiście sposobów na znalezienie plików korzystając z wyszukiwania
+rozmytego jest sporo
+
+
+### Git
+Doskonały plugin fugitive umożliwia nam commitowanie zmian i pushowanie
+ich od razu do repozytorium. Janus binduje je jako
+
+<kbd>,</kbd><kbd>g</kbd><kbd>s</kbd> - tutaj <kbd>-</kbd> zaznacza nam co chcemy
+commitować
+
+<kbd>,</kbd><kbd>g</kbd><kbd>c</kbd> - commit
+
+<kbd>,</kbd><kbd>g</kbd><kbd>p</kbd> - push it
+
 ## SED
+
+## Dodatkowe pomoce
+
+[vim.wikia](http://vim.wikia.com/wiki/Tutorial)
+
+[vim-adventures](http://vim-adventures.com/)
+
+[shortcutfoo](https://www.shortcutfoo.com/app/dojos/vim)
+
+
