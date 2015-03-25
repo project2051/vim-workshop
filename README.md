@@ -40,11 +40,13 @@ Tutaj poznamy zakres ruchów jakie możemy robić w vim'ie
 
 <kbd>)</kbd> - koniec/następne zdanie
 
-<kbd>w</kbd> <kbd>W</kbd> - następne słowo
+<kbd>w</kbd> <kbd>W</kbd> - następne słowo / SŁOWO
 
-<kbd>b</kbd> <kbd>B</kbd> - poprzednie słowo
+<kbd>b</kbd> <kbd>B</kbd> - poprzednie słowo / SŁOWO
 
-<kbd>e</kbd> <kbd>E</kbd> - koniec słowa
+<kbd>e</kbd> <kbd>E</kbd> - koniec słowa / SŁOWA
+
+<kbd>g</kbd><kbd>e</kbd> - koniec poprzedniego słowa
 
 <kbd>*</kbd> - następne słowo pod kursorem
 
@@ -233,9 +235,9 @@ Przywrócmy stan pierwotny `:e!`
 
 <kbd>y</kbd><kbd>y</kbd><kbd>3</kbd><kbd>p</kbd> - skopiuje linijke i powieli ją poniżej 3 razy
 
-<kbd>d</kbd><kbd>3</kbd><kbd>d</kbd> - przesunie 3 linijki do bufora
+<kbd>d</kbd><kbd>3</kbd><kbd>d</kbd> - przesunie 3 linijki do nienazwanego rejestru
 
-<kbd>p</kbd> - wklei zawartość bufora
+<kbd>p</kbd> - wklei zawartość nienazwanego rejestru
 
 <kbd>.</kbd> - powtórzy poprzednią akcję czyli `p`
 
