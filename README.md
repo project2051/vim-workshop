@@ -281,6 +281,10 @@ korzystając z np:
 
 gdzie 4 to unikalny identyfikator bufora.
 
+Możemy też skorzystać z pluginu który wyświetla bufory trochę ładniej
+
+<kbd>,</kbd><kbd>b</kbd> 
+
 ### Fuzzy search
 Mój ulubiony skrót to
 
@@ -307,6 +311,13 @@ commitować
 
 <kbd>,</kbd><kbd>g</kbd><kbd>p</kbd> - push it
 
+### Code snippets
+[snippets](https://github.com/honza/vim-snippets/tree/master/snippets)
+
+Będąc w kodzie javy możemy napisać `main` i naciskając <kbd>tab</kbd>
+rozwinie się to nam do pełnego snippetu. `cl`, `in`, `co`, `d.hs` etc
+etc. Jest ich pełno, a dodanie swojego nie powinno być problemem.
+
 ## SED
 
 ## Dodatkowe pomoce
@@ -316,5 +327,3 @@ commitować
 [vim-adventures](http://vim-adventures.com/)
 
 [shortcutfoo](https://www.shortcutfoo.com/app/dojos/vim)
-
-
