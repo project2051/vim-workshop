@@ -316,7 +316,7 @@ commitować
 
 Będąc w kodzie javy możemy napisać `main` i naciskając <kbd>tab</kbd>
 rozwinie się to nam do pełnego snippetu. `cl`, `in`, `co`, `d.hs` etc
-etc. Jest ich pełno, a dodanie swojego nie powinno być problemem.
+etc. Jest ich pełno, a dodanie swojego jest bajecznie proste ;)
 
 ## SED
 
