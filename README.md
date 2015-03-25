@@ -18,129 +18,129 @@ Wyedytujmy pierwszy plik `vim 1`
 
 Tutaj poznamy zakres ruchów jakie możemy robić w vim'ie
 
-`M` - środek ekranu
+<kbd>M</kbd> - środek ekranu
 
-`h` - kursor w lewo
+<kbd>h</kbd> - kursor w lewo
 
-`j` - kursor w dol
+<kbd>j</kbd> - kursor w dol
 
-`k` - kursor do gory
+<kbd>k</kbd> - kursor do gory
 
-`l` - kursor w prawo
+<kbd>l</kbd> - kursor w prawo
 
-`L` - koniec ekranu
+<kbd>L</kbd> - koniec ekranu
 
-`H` - początek ekranu
+<kbd>H</kbd> - początek ekranu
 
-`{` - początek/poprzedni akapit
+<kbd>{</kbd> - początek/poprzedni akapit
 
-`}` - koniec/następny akapit
+<kbd>}</kbd> - koniec/następny akapit
 
-`(` - początek/poprzednie zdanie
+<kbd>(</kbd> - początek/poprzednie zdanie
 
-`)` - koniec/następne zdanie
+<kbd>)</kbd> - koniec/następne zdanie
 
-`w` `W` - następne słowo
+<kbd>w</kbd> <kbd>W</kbd> - następne słowo
 
-`b` `B` - poprzednie słowo
+<kbd>b</kbd> <kbd>B</kbd> - poprzednie słowo
 
-`e` `E` - koniec słowa
+<kbd>e</kbd> <kbd>E</kbd> - koniec słowa
 
-`*` - następne słowo pod kursorem
+<kbd>*</kbd> - następne słowo pod kursorem
 
-`#` - poprzednie słowo pod kursorem
+<kbd>#</kbd> - poprzednie słowo pod kursorem
 
-`0` - początek linijki
+<kbd>0</kbd> - początek linijki
 
-`^` - początek tekstu w linijce
+<kbd>^</kbd> - początek tekstu w linijce
 
-`$` - koniec linijki
+<kbd>$</kbd> - koniec linijki
 
-`G` - koniec pliku
+<kbd>G</kbd> - koniec pliku
 
-`gg` - początek pliku
+<kbd>g</kbd><kbd>g</kbd> - początek pliku
 
-`:q` - wyjście bez zapisu jeśli nie było zmian
+<kbd>:</kbd><kbd>q</kbd> - wyjście bez zapisu jeśli nie było zmian
 
-`:q!` - wyjście bez zapisu
+<kbd>:</kbd><kbd>q</kbd><kbd>!</kbd> - wyjście bez zapisu
 
-`:wq` - wyjście z zapisem
+<kbd>:</kbd><kbd>w</kbd><kbd>q</kbd> - wyjście z zapisem
 
-`ZQ` - wyjście bez zapisu
+<kbd>Z</kbd><kbd>Q</kbd> - wyjście bez zapisu
 
-`ZZ `- wyjście z zapisem
+<kbd>Z</kbd><kbd>Z</kbd>- wyjście z zapisem
 
 Spróbujmy nawigować po kodzie i wykorzystajmy wszystkie powyższe komendy
 `vim 2`
 
-`gg`
+<kbd>g</kbd><kbd>g</kbd>
 
-`13gg`
+<kbd>1</kbd><kbd>3</kbd><kbd>g</kbd><kbd>g</kbd>
 
-`*`
+<kbd>*</kbd>
 
-`*`
+<kbd>*</kbd>
 
-`w`
+<kbd>w</kbd>
 
-`3*`
+<kbd>3</kbd><kbd>*</kbd>
 
-`G`
+<kbd>G</kbd>
 
-`40gg`
+<kbd>4</kbd><kbd>0</kbd><kbd>g</kbd><kbd>g</kbd>
 
-`#`
+<kbd>#</kbd>
 
-`2(`
+<kbd>2</kbd><kbd>(</kbd>
 
-`M`
+<kbd>M</kbd>
 
-`{`
+<kbd>{</kbd>
 
-`}`
+<kbd>}</kbd>
 
-`{`
+<kbd>{</kbd>
 
-`{`
+<kbd>{</kbd>
 
-`L`
+<kbd>L</kbd>
 
-`10B`
+<kbd>1</kbd><kbd>0</kbd><kbd>B</kbd>
 
-`10k`
+<kbd>1</kbd><kbd>0</kbd><kbd>k</kbd>
 
-`3l`
+<kbd>3</kbd><kbd>l</kbd>
 
-`6k`
+<kbd>6</kbd><kbd>k</kbd>
 
-`15E`
+<kbd>1</kbd><kbd>5</kbd><kbd>E</kbd>
 
-`e`
+<kbd>e</kbd>
 
-`2#`
+<kbd>2</kbd><kbd>#</kbd>
 
 etc etc etc
 
 akcja w vimie poprzedzona liczbą zostanie powtórzona odpowiednią ilość
 razy np:
 
-`10j` - dziesięć linijek w dół
+<kbd>1</kbd><kbd>0</kbd><kbd>j</kbd> - dziesięć linijek w dół
 
-`10k` - dziesięć linijek w górę
+<kbd>1</kbd><kbd>0</kbd><kbd>k</kbd> - dziesięć linijek w górę
 
-`2l` - dwa znaki w prawo
+<kbd>2</kbd><kbd>l</kbd> - dwa znaki w prawo
 
-`7h` - siedem znaków w lewo
+<kbd>7</kbd><kbd>h</kbd> - siedem znaków w lewo
 
-`4w` - czwarte słowo
+<kbd>4</kbd><kbd>w</kbd> - czwarte słowo
 
-`5E` - koniec piątego SŁOWA
+<kbd>5</kbd><kbd>E</kbd> - koniec piątego SŁOWA
 
-`3}` - koniec trzeciego akapitu
+<kbd>3</kbd><kbd>}</kbd> - koniec trzeciego akapitu
 
 ale
 
-`12gg`- przeniesie kursor do odpowiedniej linijki
+<kbd>1</kbd><kbd>2</kbd><kbd>g</kbd><kbd>g</kbd> - przeniesie kursor do odpowiedniej linijki
 
 ## Operatory
 `y` - kopiuj
@@ -155,55 +155,55 @@ ale
 
 powielenie operatora spowoduje wykonanie go na danej linijce
 
-`yy` - kopiuj linjke
+<kbd>y</kbd><kbd>y</kbd> - kopiuj linjke
 
-`dd` - usun linjke
+<kbd>d</kbd><kbd>d</kbd> - usun linjke
 
 etc
 
 Zaraz po operatorze używamy motion mówimy co chcemy zrobić np:
 
-`cw` - zamień słowo
+<kbd>c</kbd><kbd>w</kbd> - zamień słowo
 
-`d10gg` - usuń wszystko od tej linijki do 10
+<kbd>d</kbd><kbd>1</kbd><kbd>0</kbd><kbd>g</kbd><kbd>g</kbd> - usuń wszystko od tej linijki do 10
 
-`yG` - kopiuj wszystkie linjki stąd do końca pliku
+<kbd>y</kbd><kbd>G</kbd> - kopiuj wszystkie linjki stąd do końca pliku
 
-`d$` - usuń znaki od kursora do końca linijki
+<kbd>d</kbd><kbd>$</kbd> - usuń znaki od kursora do końca linijki
 
 ## Commands
 Komenda różni się od operatora, że nie potrzebuje modyfikatora zaraz za
 nią
 
-`i` - wbija w tryb insert
+<kbd>i</kbd> - wbija w tryb insert
 
-`R` - wbija w tryb replace
+<kbd>R</kbd> - wbija w tryb replace
 
-`x` - usuwa znak (delete)
+<kbd>x</kbd> - usuwa znak (delete)
 
-`X` - usuwa znak poprzedni (backspace)
+<kbd>X</kbd> - usuwa znak poprzedni (backspace)
 
-`I` - insert na początku linii (^i)
+<kbd>I</kbd> - insert na początku linii (^i)
 
-`S` - kasuje linijkę i wbija w insert (ddi)
+<kbd>S</kbd> - kasuje linijkę i wbija w insert (ddi)
 
-`s` - kasuje znak i wbija w insert (xi)
+<kbd>s</kbd> - kasuje znak i wbija w insert (xi)
 
-`A` - idzie na koniec linijki i wbija w tryb insert ($i)
+<kbd>A</kbd> - idzie na koniec linijki i wbija w tryb insert ($i)
 
-`a` - znak w prawo i insert (li)
+<kbd>a</kbd> - znak w prawo i insert (li)
 
-`p` - wstawia z bufora linijke niżej
+<kbd>p</kbd> - wstawia z bufora linijke niżej
 
-`P` - wstawia z bufora linijke wyżej
+<kbd>P</kbd> - wstawia z bufora linijke wyżej
 
-`o` - nowa linijka poniżej
+<kbd>o</kbd> - nowa linijka poniżej
 
-`O` - nowa linijka powyżej
+<kbd>O</kbd> - nowa linijka powyżej
 
-`u` - undo
+<kbd>u</kbd> - undo
 
-Naciskając `d` vim poczeka na motion, naciskając `x` usunie od razu jeden
+Naciskając <kbd>d</kbd> vim poczeka na motion, naciskając <kbd>x</kbd> usunie od razu jeden
 znak.
 
 `vim 3`
@@ -214,29 +214,29 @@ Chcemy zmienić słowo Python na np: Java, jest na to wiele
 
 sposobów spróbujemy różnych ucząc sie przy tym kolejnych vimowym zwrotów
 
-`fPRJava<Del><Del><Esc>`
+<kbd>f</kbd><kbd>P</kbd><kbd>R</kbd>`Java`<kbd>Del</kbd><kbd>Del</kbd><kbd>Esc</kbd>
 
 po każdym wykonaniu komend można przywrócić stan pliku z początku
-komendą `:e!` lub komendą `u` (undo)
+komendą `:e!` lub komendą <kbd>u</kbd> (undo)
 
-`5ecwJava<Esc>`
+<kbd>5</kbd><kbd>e</kbd><kbd>c</kbd><kbd>w</kbd>`Java`<kbd>Esc</kbd>
 
-`4wdwiJava<Esc>`
+<kbd>4</kbd><kbd>w</kbd><kbd>d</kbd><kbd>w</kbd><kbd>i</kbd>`Java`<kbd>Esc</kbd>
 
-`}dbiJava<Esc>`
+<kbd>}</kbd><kbd>d</kbd><kbd>b</kbd><kbd>i</kbd>`Java`<kbd>Esc</kbd>
 
-`f!dbiJava<Esc>`
+<kbd>f</kbd><kbd>!</kbd><kbd>d</kbd><kbd>b</kbd><kbd>i</kbd>`Java`<kbd>Esc</kbd>
 
-`29l6xiJava<Esc>`
+<kbd>2</kbd><kbd>9</kbd><kbd>l</kbd><kbd>6</kbd><kbd>x</kbd><kbd>i</kbd>`Java`<kbd>Esc</kbd>
 
 Przywrócmy stan pierwotny `:e!`
 
-`yy3p` - skopiuje linijke i powieli ją poniżej 3 razy
+<kbd>y</kbd><kbd>y</kbd><kbd>3</kbd><kbd>p</kbd> - skopiuje linijke i powieli ją poniżej 3 razy
 
-`d3d` - przesunie 3 linijki do bufora
+<kbd>d</kbd><kbd>3</kbd><kbd>d</kbd> - przesunie 3 linijki do bufora
 
-`p` - wklei zawartość bufora
+<kbd>p</kbd> - wklei zawartość bufora
 
-`.` - powtórzy poprzednią akcję czyli `p`
+<kbd>.</kbd> - powtórzy poprzednią akcję czyli `p`
 
 ## SED
