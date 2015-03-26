@@ -1,13 +1,26 @@
 # Vim
 
-cheatsheet -> http://www.viemu.com/vi-vim-cheat-sheet.gif
+![vim cheatsheet](vi-vim-cheat-sheet.gif)
 
-## Super extra mega pluginy
-https://github.com/carlhuda/janus
+##  Konfiguracja
+
+### .vimrc
+Możemy sami konfigurować vima wedle naszych upodobań, poniżej mamy dwa
+przykłady:
+
+* [.vimrc
+  podstawowy](https://raw.githubusercontent.com/project2051/vim-workshop/master/vimrc.basic)
+
+* [.vimrc bardziej
+  zaawansowany](https://raw.githubusercontent.com/project2051/vim-workshop/master/vimrc.improved)
+
+### Super extra mega pluginy
+Jednak na czas tutorialu prosiłbym o zainstalowanie [janusa](https://github.com/carlhuda/janus]]
 
 ja dodatkowo instaluje sobie temacik monokai
 
 `git clone https://github.com/sickill/vim-monokai ~/.janus/`
+
 
 ## O co loto?
 Na vim trzeba patrzeć jak na jezyk, podstawą jest poznanie normal mode,
@@ -145,15 +158,15 @@ ale
 <kbd>1</kbd><kbd>2</kbd><kbd>g</kbd><kbd>g</kbd> - przeniesie kursor do odpowiedniej linijki
 
 ## Operatory
-`y` - kopiuj
+<kbd>y</kbd> - kopiuj
 
-`d` - usuń
+<kbd>d</kbd> - wytnij do rejestru
 
-`c` - change
+<kbd>c</kbd> - change
 
-`<` - indent w lewo
+<kbd><</kbd> - indent w lewo
 
-`>` - indent w prawo
+<kbd>></kbd> - indent w prawo
 
 powielenie operatora spowoduje wykonanie go na danej linijce
 
@@ -316,13 +329,47 @@ commitować
 
 Będąc w kodzie javy możemy napisać `main` i naciskając <kbd>tab</kbd>
 rozwinie się to nam do pełnego snippetu. `cl`, `in`, `co`, `d.hs` etc
-etc. Jest ich pełno, a dodanie swojego jest bajecznie proste ;)
+etc. Jest ich pełno, a dodanie swojego jest bjest bajecznie proste ;)
+
+[VIM as IDE](http://vim.wikia.com/wiki/Use_Vim_like_an_IDE)
 
 ## SED
+
+Najpierw krótkie przypomnienie z wyrażeń regularnych:
+
+![regexp cheatsheet](regular-expressions-cheat-sheet-v2.png)
+
+Żeby skorzystać z wyrażeń regularnych wbijamy do trybu command
+naciskając
+
+<kbd>:</kbd>
+
+<kbd>:s</kbd> mówi że będziemy chcieli podmieniać
+
+<kbd>:s/Python/Java</kbd> zamieni w bieżącej linijce słowo python na java
+
+Między <kbd>:</kbd> i <kbd>s</kbd> możemy wstawiać modyfikatory:
+
+* <kbd>:1,3s</kbd> od pierwszej do trzeciej linijki
+
+* <kbd>:.,$s</kbd> od bieżącej linijki do końca pliku
+
+* <kbd>:.,+7s</kbd> od bieżącej linijki
+
+* <kbd>:%s</kbd>  w całym pliku
+
+* <kbd>:g/^baz/s/foo/bar/</kbd> szuka słowa baz i zamienia foo na bar
+
+* i jeszcze trochę innych [s & r](http://vim.wikia.com/wiki/Search_and_replace)
+
+Jeśli tak się składa, że szukacie lub zamieniacie na coś co ma `/` to
+możecie użyć innego rozdzielnika np <kbd>!</kbd> lub <kbd>#</kbd>
 
 ## Dodatkowe pomoce
 
 [vim.wikia](http://vim.wikia.com/wiki/Tutorial)
+
+[search patterns](http://vim.wikia.com/wiki/Search_patterns)
 
 [vim-adventures](http://vim-adventures.com/)
 
