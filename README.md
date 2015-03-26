@@ -15,7 +15,7 @@ przykłady:
   zaawansowany](https://raw.githubusercontent.com/project2051/vim-workshop/master/vimrc.improved)
 
 ### Super extra mega pluginy
-Jednak na czas tutorialu prosiłbym o zainstalowanie [janusa](https://github.com/carlhuda/janus)
+Jednak na czas tutorialu prosiłbym o zainstalowanie [janusa](https://github.com/carlhuda/janus#installation)
 
 ja dodatkowo instaluje sobie temacik monokai
 
