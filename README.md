@@ -2,6 +2,23 @@
 
 ![vim cheatsheet](vi-vim-cheat-sheet.gif)
 
+## Spis treści
+* **[Konfiguracja](#konfiguracja)**
+
+* **[O co loto?](#o-co-loto)**
+
+* **[Motion](#motion)**
+
+* **[Operatory](#operatory)**
+
+* **[Commands](#commands)**
+
+* **[VIM jako IDE](#vim-jako-ide)**
+
+* **[SED](#sed)**
+
+* **[Dodatkowe pomoce](#dodatkowe-pomoce)**
+
 ##  Konfiguracja
 
 ### .vimrc
@@ -22,9 +39,13 @@ ja dodatkowo instaluje sobie temacik monokai
 `git clone https://github.com/sickill/vim-monokai ~/.janus/`
 
 
+**[top](#vim)**
+
 ## O co loto?
 Na vim trzeba patrzeć jak na jezyk, podstawą jest poznanie normal mode,
 gdyż większość czasu właśnie w nim się spędza.
+
+**[top](#vim)**
 
 # Motion
 Wyedytujmy pierwszy plik `vim 1`
@@ -157,6 +178,8 @@ ale
 
 <kbd>1</kbd><kbd>2</kbd><kbd>g</kbd><kbd>g</kbd> - przeniesie kursor do odpowiedniej linijki
 
+**[top](#vim)**
+
 ## Operatory
 <kbd>y</kbd> - kopiuj
 
@@ -185,6 +208,8 @@ Zaraz po operatorze używamy motion mówimy co chcemy zrobić np:
 <kbd>y</kbd><kbd>G</kbd> - kopiuj wszystkie linjki stąd do końca pliku
 
 <kbd>d</kbd><kbd>$</kbd> - usuń znaki od kursora do końca linijki
+
+**[top](#vim)**
 
 ## Commands
 Komenda różni się od operatora, że nie potrzebuje modyfikatora zaraz za
@@ -262,6 +287,8 @@ słownika językowego vima.
 Na końcu tego READme są linki do innych tutoriali/ćwiczeń, gorąco
 polecam. Janusz TouK
 
+**[top](#vim)**
+
 ## Vim jako IDE
 
 Na początek sklonujmy sobie repo z githuba
@@ -333,6 +360,8 @@ etc. Jest ich pełno, a dodanie swojego jest bjest bajecznie proste ;)
 
 [VIM as IDE](http://vim.wikia.com/wiki/Use_Vim_like_an_IDE)
 
+**[top](#vim)**
+
 ## SED
 
 Najpierw krótkie przypomnienie z wyrażeń regularnych:
@@ -365,6 +394,8 @@ Między <kbd>:</kbd> i <kbd>s</kbd> możemy wstawiać modyfikatory:
 Jeśli tak się składa, że szukacie lub zamieniacie na coś co ma `/` to
 możecie użyć innego rozdzielnika np <kbd>!</kbd> lub <kbd>#</kbd>
 
+**[top](#vim)**
+
 ## Dodatkowe pomoce
 
 [vim.wikia](http://vim.wikia.com/wiki/Tutorial)
@@ -374,3 +405,5 @@ możecie użyć innego rozdzielnika np <kbd>!</kbd> lub <kbd>#</kbd>
 [vim-adventures](http://vim-adventures.com/)
 
 [shortcutfoo](https://www.shortcutfoo.com/app/dojos/vim)
+
+**[top](#vim)**
