@@ -362,6 +362,22 @@ etc. Jest ich pełno, a dodanie swojego jest bjest bajecznie proste ;)
 
 **[top](#vim)**
 
+### [Surroundings](www.vim.org/scripts/script.php?script_id=1697)
+
+Korzystając z klawisza <kbd>s</kbd> możemy edytować otoczenie np: wyrazu dodając potrzebne nawiasy lub apostrofy. Ten plugin nie ogranicza się do wyrazów, możemy używać w nim oczywiście innych przydatnych nam motionsów już poznanych :)
+
+<kbd>ysiw}</kbd> stworzy nam nawiasy {} wokół słowa
+
+<kbd>ysiW(</kbd> stworzy nam nawiasy (  ) wokół SŁOWA
+
+gdy już mamy okrągłe nawiasy wokół SŁOWA możemy je zamienić korzystając z komendy
+
+<kbd>cs(}</kbd> 
+
+lub usunąć
+
+<kbd>ds(</kbd>
+
 ## SED
 
 Najpierw krótkie przypomnienie z wyrażeń regularnych:
